@@ -31,7 +31,7 @@ void myshell_works(void)
 	int status = -1;
 
 	do {
-		write(STDOUT_FILENO, "kh$ ", 4);
+		write(STDOUT_FILENO, "henry$$ ", 8);
 		line = scan_line();
 		args = divide_line(line);
 		status = exec_arg(args);
